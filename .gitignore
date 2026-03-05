@@ -1,0 +1,19 @@
+# Dati runtime (non committare dati reali)
+data/events/events.json
+data/guests/guests.json
+data/prs/prs.json
+data/checkins/
+
+# Config con credenziali
+config/users.json
+
+# Log e cache
+*.log
+*.cache
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

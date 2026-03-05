@@ -1,0 +1,2 @@
+# Blocca accesso web diretto alla cartella data
+Require all denied
