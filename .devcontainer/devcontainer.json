@@ -1,0 +1,19 @@
+{
+  "name": "Analisi - Event Management",
+  "image": "mcr.microsoft.com/devcontainers/php:8.2",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "App PHP",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postStartCommand": "php -S 0.0.0.0:8080 router.php &",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client"
+      ]
+    }
+  }
+}
